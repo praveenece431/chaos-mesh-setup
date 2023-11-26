@@ -1,0 +1,16 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: StressChaos
+metadata:
+  name: cpu-stress-example
+  namespace: chaos-mesh
+spec:
+  mode: one
+  selector:
+    labelSelectors:
+      'app': 'chaos-demo'
+  stressors:
+    cpu:
+      workers: 1
+      load: 20
+      options: ['--cpu 1', '--timeout 600']
+  duration: "5m"
