@@ -3,6 +3,8 @@ https://mattermost.com/blog/how-to-break-stuff-chaos-engineering-and-chaos-mesh/
 
 https://chaos-mesh.org/docs/production-installation-using-helm/
 
+https://chaos-mesh.org/docs/simulate-network-chaos-on-kubernetes/
+
 This guide outlines the steps to install Chaos Mesh using Helm on your Kubernetes cluster.
 
 ## Step 1: Add Chaos Mesh Helm Repository
