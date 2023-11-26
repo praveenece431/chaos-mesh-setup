@@ -7,8 +7,9 @@ spec:
   mode: one
   selector:
     labelSelectors:
-      'app': 'app1'
+      'app': 'chaos-demo'
   stressors:
     memory:
       workers: 4
       size: '256MB'
+  duration: "5m"
